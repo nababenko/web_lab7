@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 7</title>
+    <style>
+        #place {
+            width: 200px;
+            height: 100px;
+            background-color: gray;
+        }
+        #container{
+            width: 200px;
+            padding: 50px;
+            border: black solid 2px;
+        }
+    </style>
+</head>
+
+<body>
+<header><h2>Лабораторна робота №7 виконала Бабенко Анастасія ІС-33</h2></header>
+<main>
+    <section>
+        <h2>Завдання №1</h2>
+        <button onclick="handleButton_task1()">SHOW ME</button>
+        <input type="text" id="task1_input">
+    </section>
+
+    <section>
+        <h2>Завдання №3</h2>
+        <input type="text" id="task2_input">
+        <button id="task2_button" onclick="handleButton_task2()">Приховати</button>
+    </section>
+
+    <section>
+        <h2>Завдання №5</h2>
+        <p class="taskTitle">Клікніть всередині прямокутника</p>
+        <div id="container">
+        <div id="place"></div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Завдання №7</h2>
+        <ul id="categories">
+            <li class="item">
+                <h2>Animals</h2>
+                <ul>
+                    <li>Cat</li>
+                    <li>Hamster</li>
+                    <li>Horse</li>
+                    <li>Parrot</li>
+                </ul>
+            </li>
+            <li class="item">
+                <h2>Products</h2>
+                <ul>
+                    <li>Bread</li>
+                    <li>Parsley</li>
+                    <li>Cheese</li>
+                </ul>
+            </li>
+            <li class="item">
+                <h2>Technologies</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Завдання №8</h2>
+        <form class="login-form">
+            <label>
+                Email
+                <input type="email" name="email" />
+            </label>
+            <label>
+                Password
+                <input type="password" name="password" />
+            </label>
+            <button type="submit">Log in</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Завдання №9</h2>
+        <div class="widget">
+            <p>Background color: <span class="color">-</span></p>
+            <button type="button" class="change-color">Change color</button>
+        </div>
+    </section>
+
+    <section>
+        <h2>Завдання №10</h2>
+        <div id="controls">
+            <input type="number"  />
+            <button type="button" data-create>Create</button>
+            <button type="button" data-destroy>Destroy</button>
+        </div>
+
+        <div id="boxes"></div>
+    </section>
+</main>
+<footer><p>КЛАСИ. ОБ'ЄКТНА МОДЕЛЬ ДОКУМЕНТА (DOM). ПОДІЇ. ОБ'ЄКТ ПОДІЇ. ДЕЛЕГУВАННЯ ПОДІЙ. </p></footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
